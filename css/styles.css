@@ -1,0 +1,186 @@
+/* Navigation bar */
+header{
+    color: blueviolet;
+    font-size: large;
+}
+
+img{
+    padding: 1rem;
+}
+
+body{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Use flexbox for the container */
+}
+
+.box {
+    margin-top: 18px ;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin-top: 2rem ;
+    margin-right: 12rem;
+    margin-left: 8rem;
+}
+
+/* Search button */
+.search_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+#search-input {
+    padding: 12px; /* Increase the padding to make the input field taller */
+    font-size: 18px; /* Increase the font size for larger text */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Increase the border radius for rounded corners */
+    margin-right: 10px; /* Increase the right margin for spacing */
+    width: 300px; /* Increase the width of the search bar */
+}
+
+#search-button {
+    padding: 12px 20px; /* Increase the padding to make the button taller and wider */
+    font-size: 18px; /* Increase the font size for larger text */
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px; /* Increase the border radius for rounded corners */
+    cursor: pointer;
+}
+
+
+/* Navigation btn */
+.nav_align {
+  text-align: right;
+  margin-top: 30px ;
+  margin-left: 14rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav_btn{
+    color: blueviolet;
+    margin: 1rem;
+}
+
+/* Introduction section */
+
+#intro{
+    background-color: blueviolet;
+    color: white;
+    padding: 4rem 2rem 8rem 2rem;
+}
+
+.intro{
+    display: flex;
+    margin: 0rem 0rem 1rem 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.intro_box{
+    padding: 0 12rem;
+}
+
+.intro_img{
+    width: 480px;
+    height: 320px;
+}
+
+
+/* categories */
+
+#category{
+    padding: 0.2rem 1rem 2rem 1rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 2rem;
+}
+
+.categories{
+    display: flex;
+    /* margin: 1rem 12rem 1rem 12rem; */
+    margin-bottom: 4rem;
+}
+
+.categories_items{
+    display: grid;
+    place-items: center;
+    color: blueviolet;
+    padding: 0 2rem 0 2rem ;
+    font-size: large;
+}
+
+.categories_img{
+    width: 220px;
+    height: 200px;
+}
+
+
+/* Top courses */
+#top_courses{
+    background-color: blueviolet;
+    color: white;
+    padding: 1rem;
+}
+
+.top_courses{
+    margin: 1rem 12rem 1rem 14rem;
+}
+
+.top_courses_img{
+    width: 300px;
+    height: 200px;
+}
+
+.top_courses_btn{
+    padding: 6px 12px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px; /* Increase the border radius for rounded corners */
+    cursor: pointer;
+    margin: 0.2rem;
+}
+
+.top_courses_elements{
+    display: grid;
+    place-items: center;
+    color: blueviolet;
+    background-color: white;
+    margin: 1rem;
+}
+
+/* footer */
+footer{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+}
+.footer_elements{
+margin: 0 4rem 0 4rem;
+}
+.center_div{
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Signup container */
+  .signup-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 400px;
+  }
+  
+  /* Signup title */
+  .signup-title {
+    color: #6a0dad;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styling */
+  .signup-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .signup-button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #4b0874;
+  }
+  
