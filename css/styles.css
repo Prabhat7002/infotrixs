@@ -80,23 +80,30 @@ a{
 #intro{
     background-color: blueviolet;
     color: white;
-/*     padding: 4rem 2rem 8rem 2rem; */
-}
-
-.intro{
-    display: flex;
-/*     margin: 0rem 0rem 1rem 4rem; */
+    padding: 3rem 2rem 4rem 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: 2vw ;
 }
 
-.intro_box{
-    padding: 0 12rem;
+.intro{  
+    display: flex;
 }
+
+.intro_box1{
+    width: 60%;
+    float: left;
+}
+.intro_box2{
+    width: 40%;
+    float: right;
+}
+
 
 .intro_img{
-    width: 480px;
-    height: 320px;
+    /* padding: 0rem 12rem 0rem 0rem; */
+    max-width:100%;
+    height:auto;
+    align-items: center;
 }
 
 
